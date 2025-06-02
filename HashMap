@@ -1,0 +1,18 @@
+import java.util.HashMap;
+
+public class HashMap1 {
+    public static void main(String[] args) {
+        HashMap<Integer, String> hm1 = new HashMap<>();
+        HashMap<Integer, String> hm2 = new HashMap<>();
+
+        hm1.put(1, "one");
+        hm1.put(2, "two");
+        hm1.put(3, "three");
+        hm1.put(4, "four");
+        hm1.put(5, "five");
+        hm1.put(6, "six");
+
+        System.out.println("Mapping of hashmap hm1 is: " + hm1);
+        System.out.println("Mapping of hashmap hm2 is: " + hm2);
+    }
+}
