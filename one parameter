@@ -1,0 +1,10 @@
+interface OneParameter {
+    void display(String message);
+}
+
+public class Lambda_one {
+    public static void main(String[] args) {
+        OneParameter oneParamLambda = (msg) -> System.out.println("Message: " + msg);
+        oneParamLambda.display("This is a one-parameter lambda expression");
+    }
+}
