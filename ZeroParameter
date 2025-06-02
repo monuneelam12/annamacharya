@@ -1,0 +1,10 @@
+interface Zeroparameter {
+    void display();
+}
+
+public class Lambda_zero {
+    public static void main(String[] args) {
+        Zeroparameter zeroParamLambda = () -> System.out.println("this is a zero_parameter lambda expression1");
+        zeroParamLambda.display();
+    }
+}
