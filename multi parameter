@@ -1,0 +1,12 @@
+interface TwoParameter {
+    void display(String msg, int number);
+}
+
+public class Lambda_multi {
+    public static void main(String[] args) {
+        TwoParameter multiParamLambda = (message, num) -> 
+            System.out.println("Message: " + message + ", Number: " + num);
+        
+        multiParamLambda.display("This is a multi-parameter lambda expression", 42);
+    }
+}
