@@ -1,0 +1,7 @@
+public class SquartRoot{
+    public static void main(String[] args){
+        int number=4;
+        double result=Math.sqrt(number);
+        System.out.println("sqrt of"+result);
+    }
+}
