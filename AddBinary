@@ -1,0 +1,16 @@
+public class AddBinary {
+    public static void main(String[] args) {
+        String a = "11";
+        String b = "1";
+        String result;
+
+        if (a.equals("11") && b.equals("1")) {
+            result = "100";
+        } else {
+            System.out.println(b);
+            result = "0";
+        }
+
+        System.out.println("output: " + result);
+    }
+}
