@@ -1,0 +1,19 @@
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Iterator;
+
+public class Main {
+    public static void main(String[] args) {
+        Queue<String> queue = new LinkedList<>();
+        queue.add("apple");
+        queue.add("banana");
+        queue.add("cherry");
+
+        Iterator<String> iterator = queue.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+
+        System.out.println("Queue: " + queue);
+    }
+}
